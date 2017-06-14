@@ -6,7 +6,7 @@ A PXT packet for Seeed Studio Grove Two IMU 9 DOF
 
 ```blocks
 // Create a module driver, specify the i2c address
-let imu = Grove_Two_IMU_9DOF.create(DEVICE_ID_TYPE.GROVE_TWO_IMU_9DOF_DEF_I2C_ADDR);
+let imu = Grove_Two_IMU_9DOF.create(GROVE_TWO_IMU_9DOF.DEF_I2C_ADDR);
 
 // Get imu event vaule and display
 while(true)
